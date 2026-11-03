@@ -3,10 +3,8 @@
 letltxmacro package for LaTeX
 
 
-TeX's \let assignment does not work for LaTeX macros
+TeX's `\let` assignment does not work for LaTeX macros
 with optional arguments or for macros that are defined
-as robust macros by \DeclareRobustCommand. This package
-defines \LetLtxMacro that also takes care of the involved
+as robust macros by `\DeclareRobustCommand`. This package
+defines `\LetLtxMacro` that also takes care of the involved
 internal macros.
-
-
